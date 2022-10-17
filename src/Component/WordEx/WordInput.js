@@ -16,6 +16,7 @@ function WordInput({inputStr}) {
     return (
         <div>
             <input type="text" value={str} onChange={changeHandler}/>
+            &nbsp; &nbsp;
             <button onClick={clickHandler}>SAVE</button>
         </div>
     );
